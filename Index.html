@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <title>Jake Nurilov's Game Development Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+
+  <div class="splash-container">
+    <h1 class="splash-title">Welcome to My Website</h1>
+    <button id="enter-website">Enter Website</button>
+  </div>
+    <header>
+      <h1>Jake Nurilov's Game Development Portfolio</h1>
+      <nav>
+        <p><a href="Skelly Slayer.html">Skelly Slayer</a> <a href="MineSweeper.html">MineSweeper</a></p>
+          <button id="bgChange">Change Background Color</button> <button onclick="closeWindow()">Close Window</button>
+      </nav>
+    </header>
+      <h2>Welcome to my portfolio!</h2>
+      <center><img src="Images/pfp.jpg" alt="Profile picture" width="420" height="500"></center>
+      <p>Hi, I'm Jake Nurilov, I  am a first year at Dalhousie University and I study Computer Science.<br>
+        I have first started coding in grade 7 using online courses, but I truly fell in love with coding in grade 9 when I joined my school's coding club, and have been coding ever since. <br>
+        I like making small games that I find enjoyable to code and play, and I make them from scratch, usually in python using the turtle graphics library.<br>
+          The reason why I use turtle and not something like Pygame is because I have to make everything from the ground up, and there are no <em>"Black Boxes"</em> that take care of things for you. <br>
+          The games I make are ususally either original games that I come up with or my own versions of old classic games with a little twist added to them.</p>
+      <br>
+      <h3>My Programming Experience:</h3>
+      <ul>
+        <li>CodeAcademy courses</li>
+        <li>Mimio courses</li>
+        <li>Rocky Lake Junior High Coding Club</li>
+        <li>Charles P Allen High Programming Club</li>
+        <li>Computer Programming 12 at Charles P Allen High</li>
+      </ul>
+      <h3><b>Some games I made are:</b></h3>
+      <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Images/SkellySlayer.png">
+      <img src="Images/SkellySlayer.png" alt="MineSweeper" width="600" height="400">
+    </a>
+    <div class="desc">Skelly Slayer</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Images/MineSweeper.png">
+      <img src="Images/MineSweeper.png" alt="MineSweeper" width="600" height="400">
+    </a>
+    <div class="desc">MineSweeper</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Images/Asteroids.png">
+      <img src="Images/Asteroids.png" alt="Asteroids" width="600" height="400">
+    </a>
+    <div class="desc">Asteroids</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Images/CUBE JUMPER!.png">
+      <img src="Images/CUBE JUMPER!.png" alt="Cube Jumper" width="600" height="400">
+    </a>
+    <div class="desc">CUBE JUMPER!</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+    <footer>
+      <label for="Formington">Are you marking this?:</label>
+   <input id="Formington" type="text">
+   <button onclick="checkForm()">Submit</button>
+   <button onclick="reset()">Reset</button>
+   <p id="message"></p>
+   <script src="Script.js"></script>
+      <p>&copy;2023 Jake Nurilov's Game Development Portfolio</p>
+    </footer>
+  </body>
+</html>
